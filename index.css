@@ -1,0 +1,124 @@
+
+/**
+|Elementos del bloque DERECHO|
+*/
+
+.Secciones{
+    background-color: rgb(180, 212, 180);
+    position: relative;
+    left: 150px;
+    width: 500px;
+    border: 1px solid black;
+    padding: 0px 20px 20px 20px;
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+.Perfil{
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+}
+.Perfil > h2, .Items {
+    margin: 10px;
+    padding: 5px;
+}
+.Items{
+    background: white;
+}
+.Items > h3 {
+    margin: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    color: darkgray;
+}
+
+.Items >  p,ul {
+    margin: 4px;
+    font-size: 60%;
+}
+
+
+/**
+|Elementos del bloque IZQUIERDO|
+*/
+
+.InfPersonal{
+    background-color: cadetblue;
+    position: relative;
+    bottom: 556px;
+    width: 138px;
+    border: 2px solid black;
+    padding: 10px 0px 139px 5px;
+    margin: 10px 0px 10px 10px;
+}
+
+.TítuloPrincPersonal{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+}
+
+.TítuloSecPersonal{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    color: white;
+    margin: 10px 0px 0px 0px;
+}
+
+.Dato{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    color: white;
+    margin: 0px 0px;
+}
+
+/**
+|Elementos del bloque INFERIOR|
+*/
+
+.Navegación {
+    background-color: cadetblue;
+    position: relative;
+    bottom: 565px;
+    width: 669px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.Contenedor {
+    position: relative;
+    left: 220px;
+}
+
+.Navegación > .Contenedor > button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+    color: darkgray;
+    border: 1px solid black;
+} 
+
+/**
+|Elementos del Formulario Emergente|
+*/
+
+.Emergente > form { 
+    background-color: rgb(180, 212, 180);
+    position: relative;
+    bottom: 500px;
+    width: 250px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
